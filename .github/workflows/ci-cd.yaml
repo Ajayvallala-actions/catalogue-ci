@@ -2,7 +2,7 @@ name: catalogue-cicd
 on: [push]
 jobs:
  common:
-  uses: Ajayvallala-actions/reusable-workflows.git/.github/workflows/common-nodejs.yaml@main
+  uses: Ajayvallala-actions/reusable-workflows/.github/workflows/common-nodejs.yaml@main
   with:
    project: roboshop
    component: catalogue
